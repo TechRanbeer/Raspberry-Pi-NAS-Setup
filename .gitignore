@@ -1,0 +1,33 @@
+# Logs
+*.log
+*.log.*
+
+# Swap and temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker volumes & overrides (in case you mount local files)
+docker-compose.override.yml
+
+# Environment files (keep sensitive info out of GitHub)
+.env
+.env.*
+
+# Node modules or caches if you ever use them
+node_modules/
+.cache/
+
+# Python cache (in case any script is added later)
+__pycache__/
+*.py[cod]
+
+# VS Code/IDE configs
+.vscode/
+.idea/
+*.code-workspace
