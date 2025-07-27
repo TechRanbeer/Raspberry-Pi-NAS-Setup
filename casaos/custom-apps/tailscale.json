@@ -1,0 +1,9 @@
+{
+  "id": "tailscale",
+  "name": "Tailscale",
+  "icon": "https://avatars.githubusercontent.com/u/37938307",
+  "description": "Tailscale VPN admin shortcut",
+  "port_map": false,
+  "scheme": "https",
+  "host": "login.tailscale.com"
+}

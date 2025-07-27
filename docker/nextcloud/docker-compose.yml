@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  nextcloud:
+    image: nextcloud
+    ports:
+      - 10443:80
+    volumes:
+      - /mnt/ssd/shared:/var/www/html
+    restart: always

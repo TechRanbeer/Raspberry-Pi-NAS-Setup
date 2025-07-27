@@ -1,0 +1,5 @@
+# Mounting SSD
+1. Connect SSD via GeekPi N04 NVMe HAT
+2. Format using ext4: `sudo mkfs.ext4 /dev/nvme0n1`
+3. Mount it: `sudo mount /dev/nvme0n1 /mnt/ssd`
+4. Auto-mount: add to /etc/fstab
